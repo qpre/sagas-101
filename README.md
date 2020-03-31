@@ -11,12 +11,11 @@
 - when a target dies by itself, the lives are decremented by 1,
 - each `TIME_INTERVAL` (defaults to 1 second), the target value decrements by 1,
 - a target dies by itself when its value reaches 0,
-- each time the value of a target decrements, its `backgroundColor` must change.
 
 5. update your game:
 
 - each time a target is spawned, its coordinates are randomly chosen (but bound to the size of the game layout)
-- every seconds, one target is spawned
+- every seconds, one target with a value of 3 is spawned
 - after 5 killed targets, two are spawned every second
 - after 15 killed targets, three are spawned
 - whenever the player kills 3 targets without losing a life, the `scoreMultiplier` is doubled
