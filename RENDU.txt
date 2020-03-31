@@ -1,0 +1,14 @@
+date: sometimes before 01/07/2019 23:59.
+subject: [APPING2][IJS] tp3 <InsertLoginHere>
+body:
+
+Hello, my name is <InsertFirstname> <InsertLastname>,
+
+here is the git repository to my project:
+
+- tp3: <InsertGitAddressToTP5>
+
+<InsertPolitenessHere>
+
+--
+<InsertSignatureHere>
